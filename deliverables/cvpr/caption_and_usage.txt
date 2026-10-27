@@ -1,0 +1,7 @@
+Figure. Overview of TS-CLIP. A shared CLIP local encoder produces local and stitched-global features. Together with offline CBP text prototypes, these features guide proxy-anchor generation and lightweight token selection. Local and global hierarchical attention exchange information before scale-gated fusion and cross-modal consistency refinement produce the segmentation map.
+
+Use the PDF as a two-column-wide figure at width=\textwidth in the CVPR template (figure* environment). The canvas is 7.0 x 3.444 inches. Labels are 7–8 pt, with a 6 pt token annotation and 6.5 pt legend. The artwork is a layout draft, not a certification of a particular year's submission requirements.
+
+Input/output thumbnails are illustrative bitmap crops from an earlier generated schematic, not measured experimental outputs. Other elements are native editable PowerPoint objects.
+
+All original pipeline stages are preserved; similarity matching and top-k internals shown in the reference are not added as separately claimed stages.
